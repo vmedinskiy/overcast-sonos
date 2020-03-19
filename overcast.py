@@ -6,7 +6,7 @@ Overcast doesn't really offer an official API, so this just sorta apes it.
 
 import requests
 import lxml.html
-import urlparse
+import urllib.parse as urlparse
 import utilities
 import logging
 import threading
